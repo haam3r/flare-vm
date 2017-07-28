@@ -78,6 +78,8 @@ https://raw.githubusercontent.com/chocolatey/choco/master/LICENSE
 Installation
 ============
 
+**NB! The URL based click-once installation is being deprecated: http://www.hurryupandwait.io/blog/retiring-the-boxstarter-web-launcher
+
 Create and configure a new Windows 7 or newer Virtual Machine. To install FLARE VM on an existing Windows VM, you need to run an installation script. The installation script is a Boxstarter script which is used to deploy FLARE VM configurations and a collection of chocolatey packages. The easiest way to run the script is to use Boxstarter's web installer as follows:
 
 1) On the newly created VM, open the following URL in **Internet Explorer** (other browsers are not going to work):
