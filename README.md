@@ -1,4 +1,11 @@
-      ______ _               _____  ______   __      ____  __ 
+```powershell
+iex ((New-Object System.Net.WebClient).DownloadString('http://boxstarter.org/bootstrapper.ps1')); get-boxstarter -Force
+```
+```powershell
+$cred=Get-Credential domain\username
+Install-BoxstarterPackage - Credential $cred -PackageName https://raw.githubusercontent.com/haam3r/flare-vm/master/flarevm_malware.ps1
+```
+______ _               _____  ______   __      ____  __ 
      |  ____| |        /\   |  __ \|  ____|  \ \    / /  \/  |
      | |__  | |       /  \  | |__) | |__ _____\ \  / /| \  / |
      |  __| | |      / /\ \ |  _  /|  __|______\ \/ / | |\/| |
@@ -10,7 +17,8 @@
                           Peter Kacherginsky                  
            FLARE (FireEye Labs Advanced Reverse Engineering)  
       ________________________________________________________ 
-                                                          
+ 
+
 
 Welcome to FLARE VM - a fully customizable, Windows-based security distribution for malware analysis, incident response, penetration testing, etc.
 
